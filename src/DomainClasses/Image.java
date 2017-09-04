@@ -21,4 +21,8 @@ public class Image extends DrawingItem {
     private double height;
     public double getHeight(){return height;}
     public void setHeight(double value){height = value;}
+
+    public String toString(){
+        return "This image is " + width + " width and " + height + " height.";
+    }
 }
